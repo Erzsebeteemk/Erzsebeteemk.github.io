@@ -1,0 +1,63 @@
+.container {
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fejlec {
+  height: 50px;
+  background-color: aqua;
+}
+
+
+#kozepso {
+  display: flex;
+  height: 250px;
+}
+
+.sav {
+  display: flex;
+}
+
+.baloldal {
+  display: flex;
+  flex-grow: 1;
+  background-color: orange;
+}
+
+.fotartalom {
+  display: flex;
+  flex-grow: 3;
+  background-color: red;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.jobboldal {
+  display: flex;
+  flex-grow: 1;
+  background-color: purple;
+}
+
+
+#fixaltDobozAFotartalomban {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+
+#fixaltDobozAFotartalomban {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.fotartalom {
+  position: relative;
+}
+
+
+#lablec {
+  height: 50px;
+  background-color: blue;
+}
